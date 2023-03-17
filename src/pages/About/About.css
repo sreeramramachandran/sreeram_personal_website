@@ -1,0 +1,59 @@
+.about-page{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 8rem 0px;
+}
+.about-topside{
+  text-align: center;  
+  font-size: 40px;
+  font-family: "Space Mono", Arial, serif;
+  color: var(--base-color);
+}
+.about-lowerside{
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image>img{
+  height: 450px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  object-fit: cover;
+ 
+}
+.about-hellothere>span{
+  font-size: 30px;
+  font-family: "Space Mono", Arial, serif;
+ 
+}
+.about-description{
+  margin-top: 3rem;
+  text-align: justify;
+}
+.about-description>span{
+  font-size: 16px;
+  font-family: "Space Mono", Arial, serif;
+  margin-top: 3rem;
+  line-height: 40px;
+}
+.about-button>a{
+  text-decoration: none;
+}
+.about-button>a>button{
+  background-color: var(--base-color);
+  color: white;
+  padding-top: 12px;
+}
+@media screen and (max-width:900px) {
+  .about-hellothere{
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+}

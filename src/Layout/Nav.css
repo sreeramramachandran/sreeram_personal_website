@@ -1,0 +1,43 @@
+.Navbarpage{
+    float: left;
+    
+    
+}
+.navbar-start{
+    float: left;
+    max-width: fit-content;
+    
+}
+.nav-container{
+    
+    text-align: center;
+    margin: 2rem 0px;
+    padding-top: 2rem ;
+    padding-left:  10px;
+    background-color: var(--base-color);
+    opacity: 0.80;
+    border-radius: 5px;
+}
+
+
+
+.nav-features>:nth-child(1){
+    font-size: large;
+    margin-bottom: 2rem;
+    color: #dedede;
+ }
+ .nav-features>:nth-child(1):hover{
+    color: white;
+    transform: scale(1.15);
+    transition: 5ms;
+ }
+
+
+@media screen and (max-width:991px) {
+    .nav-features>:nth-child(1){
+        font-size: small;
+        margin-bottom: 2rem;
+        color: #dedede;
+     }
+     
+  }

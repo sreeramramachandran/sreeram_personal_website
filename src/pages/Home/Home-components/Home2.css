@@ -1,0 +1,40 @@
+.home2 {
+  overflow: hidden;
+  background-color: white;
+  padding: 10px 10px;
+  padding-bottom: 4rem;
+}
+.h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Mono", Arial, serif;
+  color: #4d4d4d;
+}
+.skills {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: "Space Mono", Arial, serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #000000;
+  background: #fff;
+}
+.progress-bar-section {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress-bar {
+  align-items: center;
+  margin-top: 5rem;
+}
+@media screen and (max-width: 500px) {
+  .submain > h1 {
+    margin-top: 2rem;
+  }
+  .progress-bar {
+    margin-top: 2rem;
+  }
+}

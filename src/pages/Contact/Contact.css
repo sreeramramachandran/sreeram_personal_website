@@ -1,0 +1,27 @@
+.contact{
+    background-color: var(--base-color);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.first-half-contact{
+    background-color: white;
+    overflow:hidden;
+}
+.contact-image{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.contact-image>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact-icons{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    height: 20vh;
+    overflow: hidden;
+}

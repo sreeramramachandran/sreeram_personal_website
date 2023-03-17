@@ -1,0 +1,110 @@
+.work-main {
+  background-color: white;
+  overflow-x: hidden;
+  padding-bottom: 3rem;
+}
+.work {
+  margin-top: 10rem;
+  text-align: center;
+}
+.work > span {
+  color: var(--base-color);
+  font-size: 50px;
+  font-family: "Space Mono", Arial, serif;
+}
+
+.card {
+  margin-top: 10rem;
+  background: var(--base-color);
+  margin-bottom: 2rem;
+  margin-left: -2rem;
+  height: 500px;
+}
+.cardspace {
+  margin-left: -1rem;
+}
+.cardspace1 {
+  margin-left: 0rem;
+}
+.cardspace2 {
+  margin-left: 1rem;
+}
+.image {
+  height: 300px;
+  object-fit: cover;
+}
+.card-btn {
+  text-decoration: none;
+}
+
+.work-submain {
+  background-color: var(--base-color);
+  overflow-x: hidden;
+  padding-bottom: 3rem;
+  opacity: 0.95;
+}
+.my-services {
+  margin-top: 10rem;
+  text-align: center;
+}
+.my-services > span {
+  color: white;
+  text-align: center;
+  font-family: "Space Mono", Arial, serif;
+  font-size: 40px;
+}
+.service-body {
+  margin-top: 8rem;
+  text-align: center;
+}
+.service-icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  color: var(--base-color);
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.service-body > span {
+  font-size: 20px;
+  font-family: "Space Mono", Arial, serif;
+  color: white;
+}
+
+@media screen and (max-width: 840px) {
+  .work {
+    margin-top: 6rem;
+    text-align: center;
+  }
+  .cards{
+    margin-left: 4%;
+  }
+  .card {
+    min-width: 100%;
+    margin-bottom: -3rem;
+    margin-top: 0rem;
+    transform: scale(0.8);
+    align-items: center;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .image {
+    min-height: 300px;
+    min-width: 100%;
+    object-fit: cover;
+  } */
+  .my-services {
+    margin-top: 6rem;
+    text-align: center;
+  }
+  .service-body {
+    margin-top: 6rem;
+    text-align: center;
+  }
+}

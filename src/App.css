@@ -1,0 +1,7 @@
+
+:root{
+  --base-color:#FF9000;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
